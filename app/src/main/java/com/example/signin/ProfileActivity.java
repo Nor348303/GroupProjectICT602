@@ -43,7 +43,7 @@ public class ProfileActivity extends AppCompatActivity {
     private LocationCallback locationCallback;
     LocationRequest locationRequest;
     RequestQueue queue;
-    final String URL = "http://192.168.0.134/map/api.php";
+    final String URL = "http://192.168.0.134/location/api.php";
 
     String[] perms = {"android.permission.ACCESS_FINE_LOCATION",
             "android.permission.ACCESS_COARSE_LOCATION",
